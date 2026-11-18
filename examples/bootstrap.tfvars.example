@@ -1,0 +1,8 @@
+# SYNTHETIC: replace names, account IDs and runner egress.
+subscription_id = "00000000-0000-4000-8000-000000000001"
+tenant_id = "00000000-0000-4000-8000-000000000002"
+location = "eastus2"
+resource_group_name = "inhost-sandbox-state"
+storage_account_name = "replacewithuniquestate"
+operator_object_ids = ["00000000-0000-4000-8000-000000000003"]
+runner_ip_rules = ["198.51.100.20/32"]

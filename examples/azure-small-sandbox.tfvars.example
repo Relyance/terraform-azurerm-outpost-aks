@@ -1,0 +1,29 @@
+# Small-data functional sandbox: one active region; 12 configured peak vCPUs, not a production/performance profile.
+# SYNTHETIC examples: replace every account/identity/IP/version with approved real inputs.
+subscription_id = "00000000-0000-4000-8000-000000000001"
+tenant_id = "00000000-0000-4000-8000-000000000002"
+name_prefix = "ihtest"
+operator_object_ids = ["00000000-0000-4000-8000-000000000003"]
+management_api_cidrs = ["198.51.100.20/32"]
+# Include the operator and actual hosted transfer runtime's stable outbound egress.
+data_plane_ip_rules = ["198.51.100.20/32", "203.0.113.20/32"]
+hosted_reader_google_subject = "100000000000000000001"
+installations = {
+  east = {
+    deployment_id = "azure-east"
+    location = "eastus2"
+    namespace = "inhost-east"
+    vnet_cidr = "10.61.0.0/16"
+    # Check availability in this subscription/region before using this example version.
+    kubernetes_version = "1.36.4"
+    scaling_mode = "cluster_autoscaler"
+    network_mode = "public_allowlist"
+    runtime_profile = "small_sandbox"
+    pricing_tier = "Free"
+    system_node_count = 2
+    system_vm_size = "Standard_D4s_v5"
+    workload_vm_size = "Standard_E4s_v5"
+    workload_max_nodes = 1
+  }
+}
+tags = { purpose = "inhost-sandbox" }

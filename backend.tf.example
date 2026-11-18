@@ -1,0 +1,5 @@
+# Copy to backend.tf only when ready to initialize real state.
+# Local/mock validation uses no backend file and never opens remote state.
+terraform {
+  backend "azurerm" {}
+}

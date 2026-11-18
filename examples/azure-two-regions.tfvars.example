@@ -1,0 +1,14 @@
+# Overlay this installations map onto a COPY of azure-one-region.tfvars.example.
+# Prefer separate root/backend state per independent installation in actual use.
+installations = {
+  east = {
+    deployment_id = "azure-east", location = "eastus2", namespace = "inhost-east"
+    vnet_cidr = "10.61.0.0/16", kubernetes_version = "1.34.1"
+    scaling_mode = "cluster_autoscaler", network_mode = "public_allowlist", workload_max_nodes = 3
+  }
+  west = {
+    deployment_id = "azure-west", location = "westeurope", namespace = "inhost-west"
+    vnet_cidr = "10.62.0.0/16", kubernetes_version = "1.34.1"
+    scaling_mode = "nap", network_mode = "private", nap_cpu_limit = 32
+  }
+}

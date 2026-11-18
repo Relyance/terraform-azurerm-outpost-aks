@@ -1,0 +1,91 @@
+{
+  "files": {
+    ".terraform.lock.hcl": {
+      "sha256": "062d50bbd49b67b8c2bcc4fa2ee84e2536032ee3dcbfe56590fd7b2f43ee7d21",
+      "source": "terraform/azure-inhost/azure/.terraform.lock.hcl"
+    },
+    "backend.tf.example": {
+      "sha256": "ce4aeedebc432725723982e82bf7e907a84c9c16b97e1d6e452ff3ffa5d49ef3",
+      "source": "terraform/azure-inhost/azure/backend.tf.example"
+    },
+    "bootstrap/.terraform.lock.hcl": {
+      "sha256": "062d50bbd49b67b8c2bcc4fa2ee84e2536032ee3dcbfe56590fd7b2f43ee7d21",
+      "source": "terraform/azure-inhost/bootstrap/.terraform.lock.hcl"
+    },
+    "bootstrap/main.tf": {
+      "sha256": "acd7bf41975b2001c7275cc56eb06de388a4cda8de3a6695514f1779c830544c",
+      "source": "terraform/azure-inhost/bootstrap/main.tf"
+    },
+    "bootstrap/outputs.tf": {
+      "sha256": "db4a0b50329bc2b860bba3d5500e204f5f5896fca20f2dce2b7c1ee77d53ea79",
+      "source": "terraform/azure-inhost/bootstrap/outputs.tf"
+    },
+    "bootstrap/variables.tf": {
+      "sha256": "a77374fd0d2b8900dd39f08e7d3c7d680d78c1e9b34fa26d575908b19cd7e9c7",
+      "source": "terraform/azure-inhost/bootstrap/variables.tf"
+    },
+    "bootstrap/versions.tf": {
+      "sha256": "f33267ea5ef47c75933c3c1d8f6dfd078026feb05a017db2530aaf9fe7112815",
+      "source": "terraform/azure-inhost/bootstrap/versions.tf"
+    },
+    "compute.tf": {
+      "sha256": "aef0665ca504ccedfed08a9994e037db152c549bf5a8813c51e9060efcf62be0",
+      "source": "terraform/azure-inhost/azure/compute.tf"
+    },
+    "examples/azure-one-region.tfvars.example": {
+      "sha256": "9cec77470fd33cdb313dff7a5ee0a2c8bd179efaa235354e02b71aae79b64757",
+      "source": "terraform/azure-inhost/examples/azure-one-region.tfvars.example"
+    },
+    "examples/azure-small-sandbox.tfvars.example": {
+      "sha256": "61ad341c61ae7fea89ed543e10e4fb3a9caa4fb003b4c5d5c053811c010833bd",
+      "source": "terraform/azure-inhost/examples/azure-small-sandbox.tfvars.example"
+    },
+    "examples/azure-two-regions.tfvars.example": {
+      "sha256": "16a60c73d59354f3396b00415f576508f3a4eec4da6c0ed5586faf15bd5d7835",
+      "source": "terraform/azure-inhost/examples/azure-two-regions.tfvars.example"
+    },
+    "examples/backend.hcl.example": {
+      "sha256": "fbb2658ce01ab589c8b23fa38eb14760b91c27f1c4b1e1cccf8ad4dec9acbb7d",
+      "source": "terraform/azure-inhost/examples/backend.hcl.example"
+    },
+    "examples/bootstrap.tfvars.example": {
+      "sha256": "7f0318c926f6f767caaca95cb3a0248232800e2ea16bbca56920b505149cdf8e",
+      "source": "terraform/azure-inhost/examples/bootstrap.tfvars.example"
+    },
+    "identity.tf": {
+      "sha256": "05a5e6a2b67f04cb35cb31db348d2093b7b62029766c99c0fcd5dd0d9bac793b",
+      "source": "terraform/azure-inhost/azure/identity.tf"
+    },
+    "main.tf": {
+      "sha256": "81d4a40c7b3a48777dc0dc77602d028bce6988b5f416ff8e5eedfba347a35bd2",
+      "source": "terraform/azure-inhost/azure/main.tf"
+    },
+    "network.tf": {
+      "sha256": "95cecece3c115c446206613a21aa14b5fdbb49a5c1b521f3c45c276799340df3",
+      "source": "terraform/azure-inhost/azure/network.tf"
+    },
+    "outputs.tf": {
+      "sha256": "d43443055ecbac62107930c599e68321d4c6575840e987cb046a2769869e5881",
+      "source": "terraform/azure-inhost/azure/outputs.tf"
+    },
+    "source-identity.tf": {
+      "sha256": "f670021095189004004448bf9b8c4bbf8eff8bfec85bafc6df9528ee3f7ad28c",
+      "source": "terraform/azure-inhost/azure/source-identity.tf"
+    },
+    "storage.tf": {
+      "sha256": "fbfc00164fa11c44fc01208e9dd73f9f0d7cdbf602f0d11a31b6cd547281c443",
+      "source": "terraform/azure-inhost/azure/storage.tf"
+    },
+    "variables.tf": {
+      "sha256": "c9aea3e2e13c3a46dcf8495492e9a85a1e0b3ad8ecaede455c816213dac1e772",
+      "source": "terraform/azure-inhost/azure/variables.tf"
+    },
+    "versions.tf": {
+      "sha256": "4f5878629e5ea49afaef82390bc705b644f77dd0e14a5597077991d684a5d1e4",
+      "source": "terraform/azure-inhost/azure/versions.tf"
+    }
+  },
+  "repository": "Relyance/cloud-infra",
+  "revision": "66c4c478537a8f16ad2fc6426b87ac8c001dfd0a",
+  "root": "terraform/azure-inhost/azure"
+}

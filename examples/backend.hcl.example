@@ -1,0 +1,8 @@
+# Nonsecret backend configuration. Copy/edit per root and installation.
+resource_group_name = "inhost-sandbox-state"
+storage_account_name = "replacewithuniquestate"
+container_name = "tfstate"
+key = "azure-east/azure.tfstate"
+use_azuread_auth = true
+subscription_id = "00000000-0000-4000-8000-000000000001"
+tenant_id = "00000000-0000-4000-8000-000000000002"
